@@ -1,0 +1,154 @@
+/* Reset default styles */
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #133054;
+    color: #f9c013;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+/* Style for the current page number */
+.pagination .current-page {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #f9c013;
+    color: #133054;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+/* Style for the "Previous" and "Next" buttons */
+.pagination .previous,
+.pagination .next {
+    padding: 5px 10px;
+    background-color: #133054;
+    color: #f9c013;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+/* Hover effect for the buttons */
+.pagination a:hover,
+.pagination .previous:hover,
+.pagination .next:hover {
+    background-color: #f9c013;
+    color: #133054;
+}
+         .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f9c013;
+    background-color: #133054;
+    padding: 10px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.search-bar button {
+    background-color: #133054;
+    color: #f9c013;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+   
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    text-align: left; /* Set text alignment to left */
+}
+
+/* Style the container */
+.container {
+    margin: 20px;
+    
+    text-align: left; /* Set text alignment to left */
+}
+.mark{
+    background-color: #133054;
+    color: white;
+    height: 50px;
+    padding:20px 0 10px 20px;
+}
+/* Style the table */
+.attendance-table {
+    
+    border-collapse: collapse;
+    width: 100%; /* Adjust the width as needed */
+    margin: 20px 0; /* Adjust margin as needed */
+}
+
+.attendance-table th, .attendance-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.attendance-table th {
+    background-color: #133054;
+    color: white;
+}
+
+/* Style checkboxes */
+.attendance-table input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+/* Style the submit button */
+.check-in {
+    background-color: #0d8740   ;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.check-out{
+    background-color:  rgb(153, 48, 48)  ;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+.check-in:hover {
+    background-color: #74ed70;
+}
+.check-out:hover {
+    background-color: #ff0000;
+}

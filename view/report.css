@@ -1,0 +1,63 @@
+/* report.css */
+
+.date-selector {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.date-selector form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.date-selector label {
+    margin-right: 10px;
+    color: #133054;
+}
+
+.date-selector input[type="date"] {
+    padding: 8px;
+    border: 1px solid #133054;
+    border-radius: 4px;
+}
+
+.date-selector button {
+    background-color: #133054;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.date-selector button:hover {
+    background-color: #f9c013;
+}
+/* report.css */
+
+.report-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.report-container h2 {
+    color: #133054;
+}
+
+.report-details {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.report-details p {
+    color: #333;
+    margin: 10px 0;
+}
+
+.report-details p span {
+    font-weight: bold;
+    color: #133054;
+    margin-right: 10px;
+}

@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #133054;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #f9c013;
+    color: #133054;
+}
+
+h2 {
+    color: #133054;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f9c013;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #133054;
+    padding: 12px; /* Increased padding */
+}
+
+th.header-bg {
+    background-color: #133054;
+    color: #ffffff;
+}
+
+td.update-cell {
+    background-color: #4CAF50; /* Green */
+}
+
+td.delete-cell {
+    background-color: #f44336; /* Red */
+}
+
+button.update-button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px;
+    margin: 0;
+    width: 80%; /* Adjusted width */
+    border: none;
+}
+
+button.delete-button {
+    background-color: #f44336; /* Red */
+    color: white;
+    padding: 10px;
+    margin: 0;
+    width: 80%; /* Adjusted width */
+    border: none;
+}
+
+button.adc {
+    background-color: #133054;
+    color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 15%; /* Full width */
+    cursor: pointer;
+    
+}
+
+button.adc:hover {
+    background-color: #f9c013;
+    color:#133054;
+}
+
+tr.even {
+    background-color: #ddd;
+}

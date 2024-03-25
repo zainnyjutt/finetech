@@ -1,0 +1,248 @@
+/* Reset some default styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light gray background */
+}
+      /* Style for the pagination links */
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #133054;
+    color: #f9c013;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+/* Style for the current page number */
+.pagination .current-page {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #f9c013;
+    color: #133054;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+/* Style for the "Previous" and "Next" buttons */
+.pagination .previous,
+.pagination .next {
+    padding: 5px 10px;
+    background-color: #133054;
+    color: #f9c013;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+/* Hover effect for the buttons */
+.pagination a:hover,
+.pagination .previous:hover,
+.pagination .next:hover {
+    background-color: #f9c013;
+    color: #133054;
+}
+
+         .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f9c013;
+    background-color: #133054;
+    padding: 10px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.search-bar button {
+    background-color: #133054;
+    color: #f9c013;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+/* Card styles */
+.card {
+    flex-basis: calc(33.33% - 20px); /* Three cards in a row with spacing */
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.2s; /* Add hover animation */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Enlarge the card on hover */
+}
+
+.card h2 {
+    font-size: 1.25rem;
+    color: #333;
+    font-weight: 500;
+}
+
+.card a {
+    display: inline-block;
+    background-color: #133054;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.card a:hover {
+    background-color: #000030;
+}
+
+/* Container styles */
+.container {
+    position: relative;
+    max-width: 900px; /* Increased container width for a wider layout */
+    margin: 0 auto; /* Center the container */
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+.container header {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* Card container styles */
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.card {
+    flex-basis: calc(33.33% - 20px); /* Three cards in a row with spacing */
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.card h2 {
+    font-size: 1.25rem;
+    color: #333;
+    font-weight: 500;
+}
+
+.card a {
+    display: inline-block;
+    background-color: #133054;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.card a:hover {
+    background-color: #000030;
+}
+
+/* Table styles */
+.student-table {
+    margin-top: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+th, td {
+    padding: 8px; /* Decreased padding for narrower columns */
+    text-align: left;
+    font-size: 0.9rem; /* Slightly reduced font size */
+}
+
+th {
+    background-color: #133054;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase; /* Uppercase table headers */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Set even rows to a light gray color */
+}
+
+/* Action buttons styles */
+td a {
+    display: inline-block;
+    background-color: #133054;
+    color: white;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+td a:hover {
+    background-color: #000030;
+}
+
+        .update{
+            width: 100%;
+            height: 40px;
+            background-color: #3498db;
+            color: white;
+            cursor: pointer;
+            font-size: 14px;
+            border: none;
+            transition: background-color 0.3s;
+        }
+
+        .delete{
+            width: 100%;
+            height: 40px;
+            background-color: #ff3300;;
+            color: white;
+            cursor: pointer;
+            font-size: 14px;
+            border: none;
+            transition: background-color 0.3s;
+        }
+
+        .delete:hover {
+            background-color: red;
+        }
+
+         .update:hover {
+            background-color: #2980b9;
+        }
+

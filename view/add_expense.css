@@ -1,0 +1,48 @@
+/* Add your existing CSS styles here and include any new styles for the add_expense.php page */
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #133054;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #133054;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f9c013;
+}
+
+/* Style for the dropdown */
+select {
+    color: #133054;
+}
+
+/* Style for the first option in the dropdown */
+option[value=""] {
+    color: #ccc;
+}

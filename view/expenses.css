@@ -1,0 +1,103 @@
+/* Add your existing CSS styles here and include any new styles for the expense page */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #133054;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #f9c013;
+    color: #133054;
+}
+
+h2 {
+    color: #133054;
+}
+
+.add-expense-btn {
+    background-color: #133054;
+    color: #ffffff;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.add-expense-btn:hover {
+    background-color: #f9c013;
+}
+
+/* Style for the expense table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border:1px solid #133054 ;
+    margin-top: 20px;
+}
+
+table, th, td {
+    
+
+    border: 1px solid #133054;
+}
+th{
+    background-color: #133054;
+    color:white;
+
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+       .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #f9c013;
+            background-color: #133054;
+            padding: 10px;
+        }
+
+td.update-cell {
+    background-color: #4CAF50; /* Green */
+}
+
+td.delete-cell {
+    background-color: #f44336; /* Red */
+}
+
+.update1 {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px;
+    margin: 0;
+    width: 100%; /* Adjusted width */
+    border: none;
+}
+
+.delete1 {
+    background-color: #f44336; /* Red */
+    color: white;
+    padding: 10px;
+    margin: 0;
+    width: 100%; /* Adjusted width */
+    border: none;
+}

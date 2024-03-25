@@ -1,0 +1,118 @@
+ /* Define your specific navy blue color */
+:root {
+    --navy-blue: #133054;
+}
+
+/* Reset some default styles */
+body {
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+/* Sidebar Styles */
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--navy-blue); /* Use the custom color variable */
+    color: #f9c013; /* Text color */
+    transition: width 0.3s;
+    overflow-y: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-item {
+    position: relative;
+}
+
+.menu-item a {
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #f9c013; /* Text color */
+    display: block;
+    transition: background 0.3s, color 0.3s;
+    border-bottom: 1px solid #fff; /* Separate each button with a white line */
+}
+
+.menu-item a:hover {
+    background: #f9c013; /* Use the custom color variable for background */
+    color: #133054; /* Text color on hover */
+}
+
+/* Content Styles */
+.content {
+    margin-left: 250px;
+    padding: 20px;
+    transition: margin-left 0.3s;
+}
+
+/* Media Query for responsiveness */
+@media screen and (max-width: 768px) {
+    .sidebar {
+        width: 60px;
+    }
+
+    .logo h2 {
+        display: none;
+    }
+
+    .menu-item a {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .dropdown-content {
+        position: static;
+        display: none;
+        background: none;
+    }
+
+    .menu-item:hover .dropdown-content {
+        display: none;
+    }
+
+    .content {
+        margin-left: 60px;
+    }
+}
+
+/* Logout Button Styles */
+.logout-button {
+    background: RED;
+    border-top:  1px solid red;
+    border-bottom:  1px solid red;
+    display: flex;
+    align-items: center;
+}
+
+.logout-button a {
+    padding: 15px;
+    text-align: center;
+    width: 100%; /* Set width equal to the li in the sidebar */
+    text-decoration: none;
+    color: white;
+    transition: background 0.3s, color 0.3s;
+}
+
+/* ... Previous CSS code ... */
