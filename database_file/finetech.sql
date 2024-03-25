@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 12, 2023 at 02:36 PM
+-- Generation Time: Mar 25, 2024 at 11:57 AM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 7.3.31
 
@@ -135,7 +135,11 @@ INSERT INTO `employee_attendance` (`id`, `employee_id`, `name`, `department`, `c
 (24, 1, 'Muhammad Zain Iftikhar', 'Web-Development', '211222222222222', 'Male', '2023-11-21', 'Present'),
 (25, 12, 'Faizan Imran', 'Web-Development', '0', 'Male', '2023-11-21', 'Present'),
 (26, 14, 'Hanan', 'Web-Development', '3650164289575', 'Male', '2023-11-21', 'Present'),
-(27, 18, 'Zain Bhinder', 'Web-Development', '2312312323123', 'Male', '2023-11-29', 'Present');
+(27, 18, 'Zain Bhinder', 'Web-Development', '2312312323123', 'Male', '2023-11-29', 'Present'),
+(28, 18, 'Zain Bhinder', 'Web-Development', '2312312323123', 'Male', '2024-01-23', 'Absent'),
+(29, 23, 'Zain Bhinder', 'Digital Marketing', '36501-2927614', 'Male', '2024-01-23', 'Absent'),
+(30, 18, 'Zain Bhinder', 'Web-Development', '2312312323123', 'Male', '2024-03-14', 'Present'),
+(31, 23, 'Zain Bhinder', 'Digital Marketing', '36501-2927614', 'Male', '2024-03-14', 'Present');
 
 -- --------------------------------------------------------
 
@@ -295,7 +299,7 @@ INSERT INTO `students` (`id`, `name`, `image`, `course`, `fees`, `paid`, `contac
 (33, 'Muhammad Zain Iftikhar', '', 'Web-Development', 44500, 0, '3222222222', 'jani@gmail.com', '3421213231453', '1111-11-11', '2222-11-13', 'enrolled', '', 'Female', 'Near Informatics College,Chichawatni'),
 (35, 'Muhammad Zain Iftikhar', '', 'Web-Development', 44500, 0, '+923222222222', 'jani@gmail.com', '3421213231453', '1111-11-11', '2222-11-13', 'enrolled', '', 'Female', 'Near Informatics College,Chichawatni'),
 (36, 'Muhammad Zain Iftikhar', '', 'Web-Development', 44500, 0, '+813444444666', 'jani@gmail.com', '3421213231453', '1111-11-11', '2222-11-13', 'Dropped', '2023-11-30', 'Female', 'Near Informatics College,Chichawatni'),
-(37, 'Hanan', '', 'Digital Marketing', 22250, 0, '+923359840263', 'abd@gmail.com', '3650113477414', '2023-11-11', '2023-12-02', 'Enrolled', '', 'Male', 'Near Informatics College,Chichawatni'),
+(37, 'Hanan', '', 'Digital Marketing', 22250, 10000, '+923359840263', 'abd@gmail.com', '3650113477414', '2023-11-11', '2023-12-02', 'Enrolled', '', 'Male', 'Near Informatics College,Chichawatni'),
 (38, 'Zain Jutt', '', 'Digital Marketing', 22250, 0, '+923359840263', 'abd@gmail.com', '36501-2927614', '2023-12-02', '2023-12-15', 'Enrolled', '', 'Male', 'Near Informatics College,Chichawatni'),
 (39, 'Zain Bhinder', '../images/uploads/WhatsApp Image 2023-11-29 at 00.21.42_d7ff2751.jpg', 'Digital Marketing', 22250, 0, '+92+92+923359840263', 'abd@gmail.com', '3421213231453', '1111-11-11', '1111-11-11', 'Enrolled', '', 'Male', 'Near Informatics College,Chichawatni');
 
@@ -349,7 +353,7 @@ CREATE TABLE `userdata` (
 
 INSERT INTO `userdata` (`id`, `name`, `cnic`, `contact`, `email`, `password`, `role`, `course`) VALUES
 (1, 'admin', 0, 0, 'admin@gmail.com', '123', 'Admin', ''),
-(10, 'Muhammad Zain Iftikhar', 2147483647, 33323222, 'jani@gmail.com', 'asdf', 'Admin', '');
+(10, 'accountant', 2147483647, 33323222, 'accountant@gmail.com', 'accountant123', 'Accountant', '');
 
 --
 -- Indexes for dumped tables
@@ -459,7 +463,7 @@ ALTER TABLE `employees`
 -- AUTO_INCREMENT for table `employee_attendance`
 --
 ALTER TABLE `employee_attendance`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=32;
 
 --
 -- AUTO_INCREMENT for table `expenses`
